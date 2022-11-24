@@ -1,2 +1,3 @@
 FROM centos:7  
-USER roboshop  
+RUN  yum install epel-release -y 
+RUN  
